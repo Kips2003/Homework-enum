@@ -25,6 +25,7 @@ namespace Homework.Extension{
                     string theWord = sb.ToString();
                     result[indexOfWord] = theWord;
                     indexOfWord++;
+                    sb.Clear();
                 }
             }
             return result;
